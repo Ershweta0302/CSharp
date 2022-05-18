@@ -1,0 +1,26 @@
+//Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user.
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b, c;
+            Console.WriteLine("First Number to Multiply : ");
+            a= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Second Number to Multiply : ");
+            b= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Third Number to Multiply : ");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            int result = a * b * c;
+
+            Console.WriteLine("Multiply : {0}*{1}*{2}={3}", a, b, c, result);
+
+            Console.ReadLine();
+           
+        }
+    }
+}

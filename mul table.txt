@@ -1,0 +1,39 @@
+// Write a C# Sharp program that takes a number as input and print its multiplication table
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            int result;
+            Console.WriteLine("Enter First Number : ");
+            a= Convert.ToInt32(Console.ReadLine());
+            result = a * 1;
+            Console.WriteLine(" {0}*{1}={2}",a, 1,result);
+            result = a * 2;
+            Console.WriteLine(" {0}*{1}={2}", a, 2, result);
+            result = a * 3;
+            Console.WriteLine(" {0}*{1}={2}", a, 3, result);
+            result = a * 4;
+            Console.WriteLine(" {0}*{1}={2}", a, 4, result);
+            result = a * 5;
+            Console.WriteLine(" {0}*{1}={2}", a, 5, result);
+            result = a * 6;
+            Console.WriteLine(" {0}*{1}={2}", a, 6, result);
+            result = a * 7;
+            Console.WriteLine(" {0}*{1}={2}", a, 7, result);
+            result = a * 8;
+            Console.WriteLine(" {0}*{1}={2}", a, 8, result);
+            result = a * 9;
+            Console.WriteLine(" {0}*{1}={2}", a, 9, result);
+            result = a * 10;
+            Console.WriteLine(" {0}*{1}={2}", a, 10, result);
+            Console.ReadLine();
+            
+           
+        }
+    }
+}

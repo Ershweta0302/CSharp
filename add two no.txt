@@ -1,0 +1,18 @@
+//Write a C# Sharp program to print the sum of two numbers.
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(22 + 27);
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
